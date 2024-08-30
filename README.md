@@ -13,7 +13,7 @@ Welcome to **CodePatternsHub**! This is your go-to repository for programming pa
 
 ## 🔥 Introduction
 
-Patterns are the **building blocks of programming**! 🎯 **CodePatternsHub** is a repository that brings together programming patterns from different languages. Whether you're interested in Python, Java, C++, or any other language, you'll find a variety of examples that can help enhance your understanding and skills. 💻
+Patterns are the **building blocks of programming**! 🎯 **CodePatternsHub** is a repository that brings together programming patterns from different languages.Starting with Python. All patterns are designed to be interactive and take user input, allowing you to see the results change based on your input. 💻
 
 ## 📂 Patterns Covered
 
@@ -61,7 +61,7 @@ Each script is standalone—just run it and enjoy the output! 🎉
 - Java ☕
 - JavaScript 🌐
 
-And more to come!
+Stay tuned as we expand our language support! 🚀
 
 ## 🤝 Contributing
 
