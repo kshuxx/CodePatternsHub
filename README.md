@@ -22,7 +22,7 @@ Here’s a sneak peek at what you’ll find:
 1. **⭐ Star Patterns**: Explore classic star patterns like pyramids, diamonds, and more!
 2. **🔢 Number Patterns**: Delve into patterns created with numbers in various sequences.
 3. **🔠 Alphabet Patterns**: Discover creative shapes and sequences using alphabets.
-4. **🔍 Miscellaneous Patterns**: Unique and interesting patterns that defy categorization!
+4. **🔍 Unnamed or Complex Patterns**: Unique and intricate patterns that are hard to categorize or name!
 
 ## ⚙️ Usage
 
@@ -50,15 +50,18 @@ Each script is standalone—just run it and enjoy the output! 🎉
 
 ## 🌍 Supported Languages
 
-**CodePatternsHub** currently supports the following languages:
+**CodePatternsHub** currently supports:
 
 - Python 🐍
+
+**Coming Soon:**
+
 - C 💻
 - C++ 🔧
 - Java ☕
 - JavaScript 🌐
 
-And more to come! Feel free to add your favorite language.
+And more to come!
 
 ## 🤝 Contributing
 
