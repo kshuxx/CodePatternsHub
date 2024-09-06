@@ -4,7 +4,7 @@ def diamond(rows):
     columns = rows * 2 - 1  # This ensures the pattern is symmetrical for both even and odd numbers of rows
     
     # Top half of the diamond
-    for i in range(1, rows):
+    for i in range(1, rows + 1):
         for j in range(1, columns + 1):
             # Print a star if within the diamond bounds, otherwise print a space
             if rows - i < j <= rows + i - 1:
@@ -15,7 +15,7 @@ def diamond(rows):
         print()
     
     # Bottom half of the diamond
-    for i in range(rows, 0, -1):
+    for i in range(rows - 1, 0, -1):
         for j in range(1, columns + 1):
             # Print a star if within the diamond bounds, otherwise print a space
             if rows - i < j <= rows + i - 1:
@@ -45,4 +45,4 @@ diamond(n)
 #         * * * * * * *         
 #           * * * * *           
 #             * * *             
-#               *               
+#               *

@@ -4,8 +4,8 @@ def left_down_triangle(rows):
     for i in range(1, rows + 1):
         # Loop through each column in the current row
         for j in range(1, rows + 1):
-            # Print a star if the column index is less than or equal to rows - i, otherwise print a space
-            if j <= rows - i:
+            # Print a star if the column index is less than or equal to rows - i + 1, otherwise print a space
+            if j <= rows - i + 1:
                 print("*", end=" ")
             else:
                 print(" ", end=" ")
@@ -18,15 +18,15 @@ n = int(input("Enter number of rows: "))
 left_down_triangle(n)
 
 # If the input is 12, the output will be:
-# * * * * * * * * * * *                    
-# * * * * * * * * * *                      
-# * * * * * * * * *                        
-# * * * * * * * *                          
-# * * * * * * *                            
-# * * * * * *                              
-# * * * * *                                
-# * * * *                                  
-# * * *                                    
-# * *                                      
-# *                                        
-#                                          
+# * * * * * * * * * * * * 
+# * * * * * * * * * * *   
+# * * * * * * * * * *     
+# * * * * * * * * *       
+# * * * * * * * *         
+# * * * * * * *           
+# * * * * * *             
+# * * * * *               
+# * * * *                 
+# * * *                   
+# * *                     
+# *                       
