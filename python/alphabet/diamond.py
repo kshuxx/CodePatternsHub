@@ -7,7 +7,7 @@ def diamond(rows):
         char = chr(64 + i)  # Determine the alphabet to print (A=65 in ASCII)
         for j in range(1, columns + 1):
             # Print the alphabet if within the diamond bounds, otherwise print a space
-            if rows - i < j <= rows + i - 1:
+            if rows - i < j < rows + i:
                 print(char, end=" ")  # Print the alphabet
             else:
                 print(" ", end=" ")  # Print a space
@@ -19,7 +19,7 @@ def diamond(rows):
         char = chr(64 + i)  # Determine the alphabet to print (A=65 in ASCII)
         for j in range(1, columns + 1):
             # Print the alphabet if within the diamond bounds, otherwise print a space
-            if rows - i < j <= rows + i - 1:
+            if rows - i < j < rows + i:
                 print(char, end=" ")  # Print the alphabet
             else:
                 print(" ", end=" ")  # Print a space
