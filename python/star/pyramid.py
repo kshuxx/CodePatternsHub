@@ -1,10 +1,6 @@
-# Define a function to print a pyramid pattern using stars
 def pyramid(n):
     # Determine the number of columns for the pyramid pattern
-    if n % 2 == 0:
-        col = int(n * 2 - 1)  # For even numbers of rows
-    else:
-        col = int(n * 2)  # For odd numbers of rows
+    col = 2 * n - 1  # This ensures the pattern is symmetrical for both even and odd numbers of rows
 
     # Use outer for loop for rows
     for i in range(1, n + 1):
