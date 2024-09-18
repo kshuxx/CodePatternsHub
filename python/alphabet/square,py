@@ -1,0 +1,30 @@
+# Define a function to print a square pattern using alphabets
+def square(rows):
+    # Initialize the starting alphabet
+    alphabet = 'A'
+    # Loop through each row
+    for i in range(rows):
+        # Loop through each column in the current row
+        for j in range(rows):
+            print(alphabet, end=" ")  # Print the current alphabet
+            # Move to the next alphabet
+            alphabet = chr(ord(alphabet) + 1)
+            # If the alphabet exceeds 'Z', wrap around to 'A'
+            if alphabet > 'Z':
+                alphabet = 'A'
+        # Move to the next line after each row
+        print()
+
+# Take input from the user
+n = int(input("Enter number of rows: "))
+# Call the function to print the square pattern
+square(n)
+
+# If the input is 7, the output will be:
+# A B C D E F G 
+# H I J K L M N 
+# O P Q R S T U 
+# V W X Y Z A B 
+# C D E F G H I 
+# J K L M N O P 
+# Q R S T U V W
