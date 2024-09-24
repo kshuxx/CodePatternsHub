@@ -1,4 +1,4 @@
-# Define a function to print a left-aligned triangle using stars
+# Define a function to print a left-aligned triangle pattern using stars
 def left_triangle(rows):
     # Use outer loop to iterate through each row
     for i in range(1, rows + 1):
