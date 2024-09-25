@@ -1,4 +1,4 @@
-# Define a function to print a pyramid using stars
+# Define a function to print a pyramid pattern using stars
 def pyramid(n):
     # Determine the number of columns for the pyramid pattern
     col = 2 * n - 1  # This ensures the pattern is symmetrical for both even and odd numbers of rows
