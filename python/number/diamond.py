@@ -1,4 +1,4 @@
-# Define a function to print a diamond pattern with numbers
+# Define a function to print a diamond pattern using numbers
 def diamond(rows):
     # Determine the number of columns for the diamond pattern
     columns = rows * 2 - 1  # This ensures the pattern is symmetrical for both even and odd numbers of rows
