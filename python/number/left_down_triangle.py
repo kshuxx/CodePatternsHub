@@ -1,3 +1,4 @@
+# Define a function to print a left down triangle pattern using numbers
 def left_down_triangle(rows):
     # Loop through each row
     for i in range(1, rows + 1):
