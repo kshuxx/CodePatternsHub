@@ -1,3 +1,4 @@
+# Define a function to print a pyramid pattern using numbers
 def pyramid(n):
     # Determine the number of columns for the pyramid pattern
     if n % 2 == 0:
