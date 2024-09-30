@@ -1,3 +1,4 @@
+# Define a function to print a square pattern using numbers
 def print_even_square(rows):
     # Ensure the number of rows is even
     if rows % 2 != 0:
